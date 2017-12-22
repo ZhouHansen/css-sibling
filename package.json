@@ -1,0 +1,26 @@
+{
+  "name": "css-sibling",
+  "version": "1.0.0",
+  "description": "Add a css sibling class selector to any first level class selector.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhouHansen/css-sibling.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "周汉成",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhouHansen/css-sibling/issues"
+  },
+  "homepage": "https://github.com/ZhouHansen/css-sibling#readme",
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.26",
+    "tape": "^4.8.0"
+  }
+}
