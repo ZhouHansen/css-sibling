@@ -11,15 +11,15 @@ module.exports = (src, sibling, done) => {
 
   csstree.walk(ast, node => {
     if (node.type === 'Selector') {
-    	isComing = true
-  	} else if (node.type !== 'ClassSelector') {
-    	isComing = false
-  	}
+      isComing = true
+    } else if (node.type !== 'ClassSelector') {
+      isComing = false
+    }
 
     if (isComing && node.type === 'ClassSelector') {
       node.name = node.name + '.' + sibling
-  	  isComing = false
-  	}
+      isComing = false
+    }
   })
 
   done(csstree.translate(ast))
