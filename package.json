@@ -1,6 +1,6 @@
 {
   "name": "css-sibling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a css sibling class selector to any first level class selector.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ZhouHansen/css-sibling#readme",
   "dependencies": {
-    "css-tree": "^1.0.0-alpha.26",
+    "css-tree": "^1.0.0-alpha.27",
     "tape": "^4.8.0"
   }
 }

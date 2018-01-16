@@ -22,5 +22,5 @@ module.exports = (src, sibling, done) => {
     }
   })
 
-  done(csstree.translate(ast))
+  done(csstree.generate(ast))
 }
